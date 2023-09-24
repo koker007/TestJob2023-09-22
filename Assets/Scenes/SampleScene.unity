@@ -1486,6 +1486,8 @@ MonoBehaviour:
   unitArcher: {fileID: 1776379531467663003, guid: 893ca1e9ef65fd449869e52dadf366c8, type: 3}
   unitSkeleton: {fileID: 1224629048154375699, guid: ed29d4e2530a51e44a922dbc568eaeaf, type: 3}
   unitZombie: {fileID: 4923874148916530647, guid: e26abdb9ff2c93f44a9df98923b7fc31, type: 3}
+  unitDeath: {fileID: 6987556477650389143, guid: deff15362819769458190350938c6b25, type: 3}
+  unitDog: {fileID: 7905336172666434934, guid: e2ea72606f6433a4e8c808290b161bbe, type: 3}
 --- !u!1 &1583004959
 GameObject:
   m_ObjectHideFlags: 0

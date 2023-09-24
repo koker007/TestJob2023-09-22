@@ -23,6 +23,11 @@ namespace GameData
         [SerializeField]
         public UnitZombie unitZombie;
 
+        [SerializeField]
+        public UnitDeath unitDeath;
+        [SerializeField]
+        public UnitDog unitDog;
+
         private void Awake()
         {
             main ??= this;

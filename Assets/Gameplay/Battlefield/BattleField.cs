@@ -517,6 +517,19 @@ public class BattleField : MonoBehaviour
 
         int zombieCount = 1;
         unitZombie.Inicialize(cells[XMax, 3], zombieCount, 1);
+
+        //Создаем смерть
+        UnitDeath unitDeath = Instantiate(GameData.BattleFieldPrefabs.Main.unitDeath, ParentUnits);
+
+        int deathCount = 1;
+        unitDeath.Inicialize(cells[XMax, 0], deathCount, 1);
+
+        //Создаем песеля
+        UnitDog unitDog = Instantiate(GameData.BattleFieldPrefabs.Main.unitDog, ParentUnits);
+
+        int dogCount = 1;
+        unitDog.Inicialize(cells[1, 0], dogCount, 0);
+
     }
 
 

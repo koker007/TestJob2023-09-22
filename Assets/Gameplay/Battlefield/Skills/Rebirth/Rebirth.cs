@@ -19,6 +19,10 @@ namespace Skills
                 MyPrefab = GameData.BattleFieldPrefabs.Main.unitSkeleton;
             else if (owner is UnitZombie)
                 MyPrefab = GameData.BattleFieldPrefabs.Main.unitZombie;
+            else if (owner is UnitDeath)
+                MyPrefab = GameData.BattleFieldPrefabs.Main.unitDeath;
+            else if (owner is UnitDog)
+                MyPrefab = GameData.BattleFieldPrefabs.Main.unitDog;
 
             if (MyPrefab == null)
                 return;
